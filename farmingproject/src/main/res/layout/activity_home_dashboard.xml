@@ -19,6 +19,13 @@
         android:layout_gravity = "start"
         >
     </android.support.design.widget.NavigationView>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar">
+    </android.support.v7.widget.Toolbar>
 
 
     <LinearLayout

@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.ProfileActivity"></activity>
+        <provider
+            android:name=".provider.MyContentProviderF"
+            android:authorities="cpp"
+            android:enabled="true"
+            android:exported="true"></provider>
+
+        <activity android:name=".ui.ProfileActivity" />
         <activity android:name=".ui.WeatherFarmActivity" />
         <activity android:name=".LocaleFarmActivity" />
         <activity
