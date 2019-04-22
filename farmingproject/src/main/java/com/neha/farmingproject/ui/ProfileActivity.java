@@ -56,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
         eTxtName = findViewById(R.id.editTextName);
         eTxtEmail = findViewById(R.id.editTextEmail);
         eTxtAge = findViewById(R.id.editTextAge);
-        btnSave = findViewById(R.id.buttonSave);
+        btnSave =  findViewById(R.id.buttonSave);
 
         profile = new Profile();
 
