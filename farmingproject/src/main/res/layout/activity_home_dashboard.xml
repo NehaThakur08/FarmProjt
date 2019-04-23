@@ -19,13 +19,7 @@
         android:layout_gravity = "start"
         >
     </android.support.design.widget.NavigationView>
-    <android.support.v7.widget.Toolbar
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:minHeight="?attr/actionBarSize"
-        android:id="@+id/toolbar">
-    </android.support.v7.widget.Toolbar>
+
 
 
     <LinearLayout
@@ -51,6 +45,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/second"
                     android:src="@drawable/ic_settings"
+                    android:id="@+id/setting"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,6 +78,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/first"
                     android:src="@drawable/ic_businessman"
+                    android:id="@+id/man"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -122,6 +118,7 @@
                         android:layout_height="64dp"
                         android:background="@drawable/third"
                         android:src="@drawable/ic_fields"
+                        android:id="@+id/field"
                         android:padding="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -154,6 +151,7 @@
                         android:layout_height="64dp"
                         android:background="@drawable/fourth"
                         android:src="@drawable/ic_rain"
+                        android:id="@+id/rain"
                         android:padding="10dp"/>
                     <TextView
                         android:layout_width="wrap_content"
@@ -177,6 +175,7 @@
 
 
     </LinearLayout>
+
 
 
 </android.support.v4.widget.DrawerLayout>

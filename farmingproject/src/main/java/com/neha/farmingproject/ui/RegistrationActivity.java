@@ -81,7 +81,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     String userId = user.getUid();
                     Intent intent = new Intent(RegistrationActivity.this, otpActivity.class);
                     startActivity(intent);
-                    finish();
+//                    finish();
                 }
             }
         });

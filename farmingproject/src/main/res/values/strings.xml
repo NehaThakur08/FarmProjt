@@ -22,4 +22,9 @@
         <item>Female</item>
     </string-array>
 
+    <string name="barley" translatable="false">Barley is an annual plant, which means that it ends its life cycle in one year.The greatest quantity of produced barley is used as animal food.</string>
+    <string name="barleySoil" translatable="false">Barley can be grown on a wide range of soil types;ranging from heavy clays to light or sandy loam soils.It grows well on fertile, deep loam soils with a pH of 6
+to 7, 5. Soils with a pH lower than 6 may induce aluminium toxicity, leading to poor growth.</string>
+    <string name="barleyIrrigation" translatable="false">Irrigation scheduling must be done according to evaporation and as per growth stage, because barley is more sensitive to stress during jointing, booting and heading.</string>
+    <string name="barleyHarvest" translatable="false">Barley is ready for harvest in about 4 months after sowing.Barley can be harvested manually under small scale or combine harvesters can be used in large production scales</string>
 </resources>
