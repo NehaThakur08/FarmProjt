@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MaizeActivity"></activity>
+        <activity android:name=".ui.OnionActivity"></activity>
+        <activity android:name=".ui.PotatoActivity" />
+        <activity android:name=".ui.OatsActivity" />
+        <activity android:name=".ui.MustardActivity" />
+        <activity android:name=".ui.SugarcaneActivity" />
+        <activity android:name=".ui.CauliflowerActivity" />
+        <activity android:name=".ui.TomatoActivity" />
+        <activity android:name=".ui.CottonActivity" />
+        <activity android:name=".ui.RiceActivity" />
+        <activity android:name=".ui.WheatActivity" />
+        <activity android:name=".ui.MaizeActivity" />
         <activity android:name=".ui.BarleyActivity" />
         <activity android:name=".ui.CropActivity" />
 
