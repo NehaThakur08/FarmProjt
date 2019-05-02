@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.OnionActivity"></activity>
+        <activity android:name=".ui.BuyerSellerActivity"></activity>
+        <activity android:name=".ui.OnionActivity" />
         <activity android:name=".ui.PotatoActivity" />
         <activity android:name=".ui.OatsActivity" />
         <activity android:name=".ui.MustardActivity" />

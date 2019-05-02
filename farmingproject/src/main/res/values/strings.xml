@@ -86,6 +86,4 @@ to 7, 5. Soils with a pH lower than 6 may induce aluminium toxicity, leading to 
     <string name="onionIrrigation" translatable="false"> Onion is shallow-rooted crop. Its root system is normally restricted to top 3 cm and roots penetrate seldom deeper (15 cm). The water requirement of its crop at initial growth is less.</string>
     <string name="onionHarvest" translatable="false">Pull any onions that send up flower stalks; this means that the onions have stopped growing. When onions start to mature, the tops (foliage) become yellow and begin to fall over. Loosen the soil around the bulbs to encourage drying. When tops are brown, pull the onions.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

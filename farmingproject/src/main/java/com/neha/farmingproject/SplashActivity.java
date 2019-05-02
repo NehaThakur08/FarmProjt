@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.neha.farmingproject.ui.BarleyActivity;
+import com.neha.farmingproject.ui.BuyerSellerActivity;
 import com.neha.farmingproject.ui.CropActivity;
 import com.neha.farmingproject.ui.LanguageActivity;
 import com.neha.farmingproject.ui.ProfileActivity;
@@ -26,7 +27,7 @@ public class SplashActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
             if (msg.what == 101) {
-                Intent intent = new Intent(SplashActivity.this, LanguageActivity.class);
+                Intent intent = new Intent(SplashActivity.this, BuyerSellerActivity.class);
                 startActivity(intent);
                 finish();
             }
