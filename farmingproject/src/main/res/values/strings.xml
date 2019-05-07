@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FarmingProject</string>
+    <string name="app_name">AgriKisan</string>
     <string name="title_activity_bottom_nav">BottomNavActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -7,14 +7,23 @@
     <string name="title_activity_my_nav">MyNavActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Name</string>
+    <!--<string name="nav_header_subtitle">android.studio@android.com</string>-->
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="titleRegister">Register</string>
     <string name="phoneHint">Mobile Number</string>
     <string name="nameHint">Name</string>
     <string name="btnNext">Next</string>
+    <string name="titleValidation">Enter Validation Code</string>
+    <string name="otphint">A OTP has been sent to you</string>
+    <string name="btnVerify">Verify</string>
+    <string name="namePunjabi">Punjabi</string>
+    <string name="namecrop">Crops</string>
+    <string name="nameweather">Weather</string>
+    <string name="namebuy">Buyerand Seller</string>
+    <string name="namevideo">Videos</string>
+    <string name="nameexpert">Expert</string>
     <string name="open" translatable="false">Open</string>
     <string name="close" translatable="false">Close</string>
     <string-array name="gender">

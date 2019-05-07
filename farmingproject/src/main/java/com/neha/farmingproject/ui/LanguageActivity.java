@@ -9,10 +9,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import com.neha.farmingproject.HomeDashboardActivity;
 import com.neha.farmingproject.R;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class LanguageActivity extends AppCompatActivity {
 
@@ -33,7 +31,7 @@ public class LanguageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(),RegistrationActivity.class);
+                Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
                 startActivity(intent);
 
 

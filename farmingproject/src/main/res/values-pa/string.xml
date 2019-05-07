@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">FarmingProject</string>
+    <string name="app_name">AgriKisan</string>
     <string name="title_activity_bottom_nav">BottomNavActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -17,4 +17,14 @@
     <string name="phoneHint">ਮੋਬਾਈਲ ਨੰਬਰ</string>
     <string name="nameHint">ਨਾਮ</string>
     <string name="btnNext">ਅਗਲਾ</string>
+    <string name="titleValidation">OTP ਕੋਡ ਦਰਜ ਕਰੋ</string>
+    <string name="otphint">ਇੱਕ ਓਟੀਪੀ ਤੁਹਾਨੂੰ ਭੇਜੀ ਗਈ ਹੈ</string>
+    <string name="btnVerify">ਜਾਂਚ ਕਰੋ</string>
+    <string name="namePunjabi">ਪੰਜਾਬੀ</string>
+    <string name="namecrop">ਕਰੋਪ</string>
+    <string name="nameweather">ਮੌਸਮ</string>
+    <string name="namebuy">ਖਰੀਦਦਾਰ ਅਤੇ ਸੈਲਰ</string>
+    <string name="namevideo">ਵੀਡੀਓਜ਼</string>
+    <string name="nameexpert">ਮਾਹਰ</string>
+
 </resources>

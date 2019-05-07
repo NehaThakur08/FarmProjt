@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+    <item
+        android:id="@+id/crops"
+        android:title="Crops"
+        android:icon="@drawable/ic_crop"/>
+    <item
+        android:id="@+id/buysell"
+        android:title="Buyer Seller"
+        android:icon="@drawable/ic_buyer"/>
+    <item
+        android:id="@+id/expert"
+        android:title="Experts"
+        android:icon="@drawable/ic_female_science_expert_with_eyeglasses"
+        />
+    <!--<item-->
+        <!--android:id="@+id/weather"-->
+        <!--android:title="Weather"-->
+        <!--android:icon="@drawable/ic_rain"/>-->
+    <!--<item-->
+        <!--android:id="@+id/video"-->
+        <!--android:title="Videos"-->
+        <!--android:icon="@drawable/ic_video_player"/>-->
+    <!--<item-->
+        <!--android:id="@+id/user"-->
+        <!--android:title="User"-->
+        <!--android:icon="@drawable/ic_user"-->
+        <!--/>-->
+</menu>
