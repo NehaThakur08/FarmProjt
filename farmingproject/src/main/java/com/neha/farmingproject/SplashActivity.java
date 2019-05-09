@@ -9,7 +9,12 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+import com.neha.farmingproject.ui.AllBuyersActivity;
+import com.neha.farmingproject.ui.AllSellersActivity;
 import com.neha.farmingproject.ui.CropActivity;
+import com.neha.farmingproject.ui.ExpertsActivity;
+import com.neha.farmingproject.ui.LogoutActivity;
+import com.neha.farmingproject.ui.MyFragmentsActivity;
 import com.neha.farmingproject.ui.RegistrationActivity;
 
 public class SplashActivity extends AppCompatActivity {
@@ -31,7 +36,7 @@ public class SplashActivity extends AppCompatActivity {
         @Override
         public void handleMessage(Message msg) {
             if (msg.what == 101) {
-                Intent intent = new Intent(SplashActivity.this, RegistrationActivity.class);
+                Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
                 startActivity(intent);
                 finish();
             }

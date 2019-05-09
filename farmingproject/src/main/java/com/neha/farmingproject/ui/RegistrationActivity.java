@@ -1,5 +1,6 @@
 package com.neha.farmingproject.ui;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -81,10 +82,13 @@ public class RegistrationActivity extends AppCompatActivity {
                     String userId = user.getUid();
                     Intent intent = new Intent(RegistrationActivity.this, otpActivity.class);
                     startActivity(intent);
-//                    finish();
+                  finish();
                 }
             }
         });
+        ProgressDialog pd = new ProgressDialog(RegistrationActivity.this);
+        pd.setMessage("Please Wait...");
+        pd.show();
 
     }
 }

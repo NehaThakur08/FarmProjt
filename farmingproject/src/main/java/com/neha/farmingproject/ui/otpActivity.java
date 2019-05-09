@@ -28,6 +28,8 @@ public class otpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(otpActivity.this, HomeDashboardActivity.class);
                 startActivity(intent);
+                finish();
+
             }
         });
 
