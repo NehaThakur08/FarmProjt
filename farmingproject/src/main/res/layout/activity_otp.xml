@@ -14,7 +14,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.otpActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/gardient">
 
 
     <TextView
@@ -33,7 +34,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="A OTP has been sent to you"
+        android:hint="An OTP has been sent to you"
         android:layout_marginTop="30dp"
         android:textColor="@color/colorBlack"
         android:textAlignment="center"/>

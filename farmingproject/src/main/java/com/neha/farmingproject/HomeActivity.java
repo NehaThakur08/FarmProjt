@@ -21,6 +21,7 @@ import com.neha.farmingproject.ui.AllSellersActivity;
 import com.neha.farmingproject.ui.CropActivity;
 import com.neha.farmingproject.ui.ExpertsActivity;
 import com.neha.farmingproject.ui.LogoutActivity;
+import com.neha.farmingproject.ui.MainActivity;
 import com.neha.farmingproject.ui.MyFragmentsActivity;
 import com.neha.farmingproject.ui.ProfileActivity;
 import com.neha.farmingproject.ui.RegistrationActivity;
@@ -38,14 +39,14 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+//        fab.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+//            }
+//        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -70,7 +71,7 @@ public class HomeActivity extends AppCompatActivity
         weatherimage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -123,7 +124,7 @@ public class HomeActivity extends AppCompatActivity
         txtweather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
             }
         });

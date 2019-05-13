@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.neha.farmingproject.HomeActivity;
 import com.neha.farmingproject.HomeDashboardActivity;
 import com.neha.farmingproject.R;
 
@@ -26,7 +27,7 @@ public class otpActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(otpActivity.this, HomeDashboardActivity.class);
+                Intent intent = new Intent(otpActivity.this, HomeActivity.class);
                 startActivity(intent);
                 finish();
 
