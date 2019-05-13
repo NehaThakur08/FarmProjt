@@ -16,9 +16,12 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.neha.farmingproject.ui.AboutActivity;
 import com.neha.farmingproject.ui.AllBuyersActivity;
 import com.neha.farmingproject.ui.AllSellersActivity;
+import com.neha.farmingproject.ui.CallActivity;
 import com.neha.farmingproject.ui.CropActivity;
+import com.neha.farmingproject.ui.EmailActivity;
 import com.neha.farmingproject.ui.ExpertsActivity;
 import com.neha.farmingproject.ui.LogoutActivity;
 import com.neha.farmingproject.ui.MainActivity;
@@ -206,7 +209,7 @@ public class HomeActivity extends AppCompatActivity
             Intent intent = new Intent(HomeActivity.this, HomeActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_call) {
-            Intent intent = new Intent(HomeActivity.this, RegistrationActivity.class);
+            Intent intent = new Intent(HomeActivity.this, CallActivity.class);
             startActivity(intent);
         }
         else if (id == R.id.nav_logout) {
@@ -215,6 +218,14 @@ public class HomeActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_se) {
             Intent intent = new Intent(HomeActivity.this, ProfileActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.nav_email) {
+            Intent intent = new Intent(HomeActivity.this, EmailActivity.class);
+            startActivity(intent);
+        }
+        else if (id == R.id.nav_about) {
+            Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
             startActivity(intent);
         }
 
