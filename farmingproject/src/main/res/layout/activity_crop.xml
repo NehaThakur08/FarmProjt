@@ -45,7 +45,8 @@
                     android:layout_height="wrap_content"
                     android:text="BARLEY"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/barleys"/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -81,7 +82,8 @@
                     android:layout_height="wrap_content"
                     android:text="CAULIFLOWER"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/caulis"/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -117,7 +119,8 @@
                     android:layout_height="wrap_content"
                     android:text="COTTON"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/cottons"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -160,7 +163,8 @@
                     android:layout_height="wrap_content"
                     android:text="MAIZE"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/maizes"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -196,7 +200,8 @@
                     android:layout_height="wrap_content"
                     android:text="MUSTARD"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/mustards"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -232,7 +237,8 @@
                     android:layout_height="wrap_content"
                     android:text="OATS"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/oatss"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -277,7 +283,8 @@
                     android:layout_height="wrap_content"
                     android:text="ONION"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/onions"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -312,7 +319,8 @@
                     android:layout_height="wrap_content"
                     android:text="POTATO"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/potatoes"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -347,7 +355,8 @@
                     android:layout_height="wrap_content"
                     android:text="RICE"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/rices"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -391,7 +400,8 @@
                     android:layout_height="wrap_content"
                     android:text="SUGARCANE"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/sugarcanes"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -427,7 +437,8 @@
                     android:layout_height="wrap_content"
                     android:text="TOMATO"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/tomatoes"/>/>
 
                 <View
                     android:layout_width="wrap_content"
@@ -462,7 +473,8 @@
                     android:layout_height="wrap_content"
                     android:text="WHEAT"
                     android:textStyle="bold"
-                    android:textColor="@color/colorBlack"/>/>
+                    android:textColor="@color/colorBlack"
+                    android:id="@+id/wheats"/>/>
 
                 <View
                     android:layout_width="wrap_content"

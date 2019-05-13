@@ -16,6 +16,14 @@
             android:icon="@drawable/ic_phone_receiver"
             android:title="Call" />
         <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_email_filled_closed_envelope"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_businessman_talking_about_data_analysis"
+            android:title="About Us" />
+        <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_logout"
             android:title="Logout" />

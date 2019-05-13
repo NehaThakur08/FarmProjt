@@ -202,4 +202,21 @@ to 7, 5. Soils with a pH lower than 6 may induce aluminium toxicity, leading to 
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    \\About Us
+    <string name="inform" translatable="false">Empowering Rural India Digitally</string>
+    <string name="about1" translatable="false">Empowering Rural India Digitally
+    \nFarmers guarantee tomorrow’s food security. Next to this essential function of food provision, they also fulfill a number of additional roles that benefit the environment, the economy and society.
+
+\n AgriKisan – A comprehensive and innovative agricultural portal helps rural communities drive efficiencies and sustainability. We help the farmers become more connected, integrated, and informed than ever before. We provide you the right information at the right time, from sowing, nurturing, protecting to harvesting your crops. Our portal helps you improve on-farm decision-making and execution, predict what is coming around the corner and act upon it more effectively.</string>
+    <string name="infor" translatable="false">OTHER ATTRACTIVE OFFERINGS:</string>
+    <string name="about2" translatable="false">
+    The App contains various videos through which the farmers can gain knowledge.
+\n Weather Forecasting help the farmers to take prediction and get fruitful result and work
+according to weather.
+\n Farmers can easily contact the sellers.
+\n Farmers can also buy agricultural related products.</string>
+    <string name="Info" translatable="false">CONNECT WITH EXPERTS NATIONWIDE</string>
+    <string name="about3" translatable="false">
+\n There is a real power in connectivity. Using our portal, connect with Subject/domain experts and other progressive farmers across the country to learn and discuss latest innovations in the farming sector, sustainable farming strategies, ideal ways to increase yields and how to use resources more efficiently and a lot more. We help you get accurate and quick solutions to all your day-to-day problems.</string>
+
 </resources>

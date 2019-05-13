@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gardient">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AboutActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textViewInfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inform"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewAbout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about1"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infor"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewAbout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about2"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Info"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewAbout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about3"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>
+</ScrollView>
