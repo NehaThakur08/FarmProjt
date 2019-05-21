@@ -30,7 +30,7 @@ import com.neha.farmingproject.model.Util;
 
 public class ProfileActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
 
-    EditText eTxtName, eTxtEmail, eTxtAge;
+    EditText eTxtName, eTxtEmail, eTxtAge, etxtState, etxtCity;
     Button btnSave;
     Profile profile;
 
@@ -56,6 +56,8 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
         eTxtName = findViewById(R.id.editTextName);
         eTxtEmail = findViewById(R.id.editTextEmail);
         eTxtAge = findViewById(R.id.editTextAge);
+        etxtState = findViewById(R.id.editTextState);
+        etxtCity = findViewById(R.id.editTextCity);
         btnSave =  findViewById(R.id.buttonSave);
 
         profile = new Profile();
@@ -66,6 +68,8 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
                 profile.name = eTxtName.getText().toString();
                 profile.email = eTxtEmail.getText().toString();
                 profile.age = eTxtAge.getText().toString();
+                profile.state = etxtState.getText().toString();
+                profile.city = etxtCity.getText().toString();
 
                 //addCustomerInDB();
                 if (Util.isInternetConnected(ProfileActivity.this)) {
@@ -84,6 +88,8 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
             eTxtName.setText(profile.name);
             eTxtEmail.setText(profile.email);
             eTxtAge.setText(profile.age);
+            etxtState.setText(profile.state);
+            etxtCity.setText(profile.city);
             btnSave.setText("Update Customer");
         }
 
@@ -95,10 +101,12 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
         values.put(Util.COL_NAME, profile.name);
         values.put(Util.COL_EMAIL, profile.email);
         values.put(Util.COL_AGE, profile.age);
+        values.put(Util.COL_STATE, profile.state);
+        values.put(Util.COL_CITY, profile.city);
 
         if (updateMode) {
 
-            String where = Util.COL_ID + " = " + profile.id;
+            String where = Util.COL_NAME + " = " + profile.name;
             int i = contentResolver.update(Util.Users_URI, values, where, null);
             if (i > 0) {
                 Toast.makeText(this, "Updation Finished", Toast.LENGTH_LONG).show();
@@ -121,7 +129,7 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
             void saveCustomerInCloudDB () {
                 if(updateMode){
                     db.collection("users").document(firebaseUser.getUid())
-                            .collection("customers").document(profile.docId)
+                            .collection("customers").document(profile.name)
                             .set(profile)
                             .addOnCompleteListener(this, new OnCompleteListener<Void>() {
                                 @Override
@@ -198,6 +206,9 @@ public class ProfileActivity extends AppCompatActivity implements AdapterView.On
         eTxtName.setText("");
         eTxtEmail.setText("");
         eTxtAge.setText("");
+        etxtState.setText("");
+        etxtCity.setText("");
+
 
     }
 }

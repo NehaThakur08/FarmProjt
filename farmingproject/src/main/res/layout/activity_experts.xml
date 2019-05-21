@@ -13,9 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
         tools:context=".ui.ExpertsActivity"
-        android:background="@drawable/gardient">
+        android:background="@drawable/gardient"
+       >
 
 
         <LinearLayout
@@ -23,7 +23,8 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
 
             <android.support.v7.widget.CardView
                 android:layout_width="100dp"
@@ -146,7 +147,8 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
 
             <android.support.v7.widget.CardView
                 android:layout_width="100dp"
@@ -272,7 +274,8 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
 
             <android.support.v7.widget.CardView
                 android:layout_width="100dp"
@@ -395,7 +398,9 @@
             android:layout_height="wrap_content"
             android:clipToPadding="false"
             android:gravity="center"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
+            >
 
             <android.support.v7.widget.CardView
                 android:layout_width="100dp"

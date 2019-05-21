@@ -11,17 +11,23 @@ public class Util {
 
     public static final String TAB_NAME = "Users";
 
-
-    public static final String COL_ID = "_ID";
     public static final String COL_NAME = "name";
     public static final String COL_AGE = "age";
     public static final String COL_EMAIL = "email";
+    public static final String COL_STATE = "state";
+    public static final String COL_CITY = "city";
+
+
+
 
     public static final String CREATE_TAB_QUERY = "create table Users("+
-            "_ID Integer primary key autoincrement,"+
             "name varchar(256),"+
             "email varchar(50),"+
-            "age varchar(15)"+
+            "age varchar(15),"+
+            "state varchar(30),"+
+            "city varchar(30)"+
+
+
             ")";
 
     public static final Uri Users_URI = Uri.parse("content://cpp/"+TAB_NAME);

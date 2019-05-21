@@ -17,6 +17,7 @@ import com.neha.farmingproject.ui.LogoutActivity;
 import com.neha.farmingproject.ui.MainActivity;
 import com.neha.farmingproject.ui.MainFragment;
 import com.neha.farmingproject.ui.MyFragmentsActivity;
+import com.neha.farmingproject.ui.ProfileActivity;
 import com.neha.farmingproject.ui.RegistrationActivity;
 
 public class SplashActivity extends AppCompatActivity {
